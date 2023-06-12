@@ -1,0 +1,357 @@
+#mini_D{display: none;}
+@media screen and (max-width: 700px) {#mini_D{display: block;} }
+#big_D{}
+@media screen and (max-width: 700px) {#big_D{display: none;} }
+
+#img_a{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#img_b{
+    transition-property: all;
+    transition-duration: 700ms;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: white;
+}
+
+#smb{
+    width: 64%;
+    height: 15px;
+    background-color: rgba(217, 217, 217, 0.857);
+    margin-top: 5px;
+    right: 0px;
+    float: right;
+    border-radius: 4px;
+}
+
+#smb2{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;
+    height: 100%;
+    width: 34%;
+    background-color:rgba(217, 217, 217, 0.857);
+}
+
+#smb3{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 66px;
+    height: 22px;
+    width: 33px;
+    border-radius: 3px;
+    background-color: royalblue;
+}
+
+#smb4{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 102px;
+    height: 22px;
+    width: 33px;
+    border-radius: 3px;
+    background-color: royalblue;
+}
+
+#smb5{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 138px;
+    height: 22px;
+    width: 33px;
+    border-radius: 3px;
+    background-color: royalblue;
+}
+
+#sfi{
+    height: 400px;
+    width: 500px;
+    background-color: transparent;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    top: 0px;right: 0px;left: 0px;bottom: 0px;
+}
+
+@media screen and (max-width: 500px) {#sfi{width: 300px;} }
+
+
+#sfix{
+    height: 400px;
+    width: fill;
+    background-color: transparent;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    top: 0px;right: 0px;left: 0px;bottom: 0px;
+}
+
+#fill{
+    height: 100%;
+    width: 100%;
+}
+
+#ppkg{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0;bottom: 0;right: 0;left: 0;
+
+}
+
+
+
+
+
+#fiwi{
+    width: 60%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+#fiwix{
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fiwix2{
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+#bg2{
+    transition-property: all;
+    transition-duration: 1s;
+    background-color: royalblue;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 50%;
+
+    transform: rotate(0deg);
+    clip-path: polygon(50% 50%, 0% 100%, 100% 100%)
+}
+
+#bg3{
+    transition-property: all;
+    transition-duration: 1s;
+    background-color: royalblue;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 50%;
+
+    transform: rotate(89deg);
+    clip-path: polygon(50% 50%, 0% 100%, 100% 100%)
+}
+
+#bg4{
+
+    transition-property: all;
+    transition-duration: 1s;
+    background-color: royalblue;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 50%;
+
+    transform: rotate(178deg);
+    clip-path: polygon(50% 50%, 0% 100%, 100% 100%)
+}
+
+#bgc{
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: fixed;
+    margin-top: 125px;
+    margin-left: 225px;
+    background-color: white;
+}
+
+
+#gsc1{
+    height: 100%;
+  filter: invert(27%)
+   sepia(50%)
+   saturate(2878%)
+   hue-rotate(346deg)
+   brightness(150%)
+   contrast(100%);
+}
+
+#gsc2{
+    height: 100%;
+  filter: invert(27%)
+   sepia(50%)
+   saturate(2878%)
+   hue-rotate(86deg)
+   brightness(150%)
+   contrast(100%);
+}
+
+#gsc3{
+    height: 100%;
+  filter: invert(27%)
+   sepia(50%)
+   saturate(2178%)
+   hue-rotate(206deg)
+   brightness(100%)
+   contrast(100%);
+}
+
+#gsc4{  
+    height: 100%;
+  filter: invert(27%)
+   sepia(50%)
+   saturate(2878%)
+   hue-rotate(310deg)
+   brightness(100%)
+   contrast(1000%);
+}
+
+#basin{
+    margin-top: 240px;
+    height: 310px;
+    max-width: 780px;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    top: 250px;
+    left: 20px;
+    right: 20px;
+}
+@media screen and (max-width: 700px) {#basin{left: 10px;height: 300px;} }
+
+#transcard{
+    position: absolute;    
+    width: fit-content;
+    margin: auto;
+    top: 5px;
+    right: 0px;
+    left: 0px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+#bcimg{
+    position: relative;
+   height: 100%; 
+   width: 100%;
+   object-fit: cover;
+}
+
+#cardicon{
+    position: absolute;
+    height: 50px;
+    bottom: 10px;
+    left:280px;
+    margin: auto;
+}
+@media screen and (max-width: 1115px) {#cardicon{bottom: 25px;} }
+
+#cardname{
+
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#bc_img{
+    height: fill;
+    width: fill;
+    object-fit: cover;
+}
+
+
+#dyc{
+  position: absolute;
+  max-width: 800px;
+  height: 100px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+@media screen and (max-width: 1115px) {#dyc{width: 580px;} }
+@media screen and (max-width: 610px) {#dyc{width: 360px;} }
+
+#loom, #loom1, #loom2 {
+    margin-top: 10px;
+    height: 35px;
+    outline: none;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    width: 230px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#transpoper{
+    position: absolute;
+    max-width: 93%;
+    height: 200px;
+    top: 565px;
+    margin:auto;
+    left: 0px;
+    right: 10px;
+    background-color: transparent;
+    display: none;
+    border-radius: 10px;
+}
+@media screen and (max-width: 610px) {#transpoper{display: block;} }
+
+#scro{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#scaterpart{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+       margin-bottom: 5px;
+}
+
